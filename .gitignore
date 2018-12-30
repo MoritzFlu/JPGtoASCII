@@ -1,0 +1,19 @@
+# Ignore Python 'venv' stuff
+bin
+include
+lib
+lib64
+pyvenv.cfg
+
+# Ignore pip-selfcheck.json from 'pip install --upgrade pip'
+pip-selfcheck.json
+
+# Ignore image binaries in the folder
+*.png
+*.jpg
+*.svg
+*.gif
+*.bmp
+
+# Ignore the output file
+output.txt
